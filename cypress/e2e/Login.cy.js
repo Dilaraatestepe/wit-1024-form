@@ -18,7 +18,7 @@ describe("error messages", () => {
   it("wrong email and password", () => {
     cy.visit("http://localhost:5173");
 
-    cy.get('input[name="email"]').type("wrongemail");
+    cy.get('input[name="email"]').type("hatali");
 
     cy.get('input[name="password"]').type("123");
 
