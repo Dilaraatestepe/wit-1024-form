@@ -6,7 +6,7 @@ describe("error messages", () => {
 
     cy.get('input[name="email"]').type("wrongemail");
 
-    cy.get('input[name="password"]').type("9fxIH0GXesEwH_I");
+    cy.get('input[name="password"]').type("7sxIH0GXatEwH_I");
 
     cy.get('input[name="terms"]').check().should("be.checked");
 
