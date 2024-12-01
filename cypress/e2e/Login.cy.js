@@ -20,7 +20,7 @@ describe("error messages", () => {
 
     cy.get('input[name="email"]').type("hatali");
 
-    cy.get('input[name="password"]').type("123");
+    cy.get('input[name="password"]').type("357");
 
     cy.get('input[name="terms"]').check().should("be.checked");
 
